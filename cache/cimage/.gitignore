@@ -2,3 +2,6 @@
 *
 # Except this file
 !.gitignore
+
+# In order to view pictures local
+chmod -R 777 cache/*
