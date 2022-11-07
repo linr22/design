@@ -1,6 +1,8 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Mukta+Malar:wght@300&display=swap');
+
 body {
-    background-color: #f5f5f5;
+    background-color: #29805c7c;
 }
 
 * {
@@ -27,10 +29,21 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
+    overflow-y: scroll;
 }
 
 .main {
+    border-top: 3px solid #222;
     flex: 1 0 auto;
+    /* max-width: 900px; */
+    overflow: hidden;
+    background: #ffffff;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+    padding-right: 8em;
+    padding-left: 8em;
 }
 
 .header, .footer {
@@ -48,6 +61,8 @@ body {
 
 .title, .logo {
     padding: 3em 3em 3em 0;
+    font-family: 'Mukta Malar', sans-serif;
+    font-size: 30px;
 }
 
 @media (max-width: 767px) {
@@ -103,11 +118,13 @@ p, td, th, li, dd {
 
 h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0.6em;
+    margin-top: 35px;
     font-weight: bold;
 }
 
 img {
-    max-width: 100%;
+    max-width: 250px;
+    padding: 0.8em
 }
 
 /* BELOW ARE PREPARED STYLES FOR CODE/PRE/BLOCKQUOTE, FEEL FREE TO REMOVE IT  */

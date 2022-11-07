@@ -1,8 +1,9 @@
 ---
 Title: Home
 Description: This is our index page.
+ImageMe: image/gustavkatt.jpg
 ---
-<!-- ![Image of a big cat that reads a book](../../assets/img/gustavkatt.jpg "a title") -->
+
 
 Home page
 ==========================
