@@ -35,15 +35,12 @@ body {
 .main {
     border-top: 3px solid #222;
     flex: 1 0 auto;
-    /* max-width: 900px; */
     overflow: hidden;
     background: #ffffff;
-    border-left: 1px solid #ccc;
-    border-right: 1px solid #ccc;
     padding-top: 2.5em;
     padding-bottom: 2.5em;
-    padding-right: 8em;
-    padding-left: 8em;
+    padding-right: 24%;
+    padding-left: 24%;
 }
 
 .header, .footer {
@@ -54,7 +51,7 @@ body {
 
 .header, .site-header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
 }
 
 /* Title */
@@ -63,6 +60,7 @@ body {
     padding: 3em 3em 3em 0;
     font-family: 'Mukta Malar', sans-serif;
     font-size: 30px;
+    float: center;
 }
 
 @media (max-width: 767px) {
@@ -83,6 +81,21 @@ body {
 
 .title p {
     font-style: italic;
+}
+
+/* Nav */
+
+/* .nav {
+    float: right;
+} */
+
+.nav a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav a:hover{
+    color: brown;
 }
 
 /* Footer */
@@ -124,7 +137,8 @@ h1, h2, h3, h4, h5, h6 {
 
 img {
     max-width: 250px;
-    padding: 0.8em
+    padding: 0.8em;
+    float: right;
 }
 
 /* BELOW ARE PREPARED STYLES FOR CODE/PRE/BLOCKQUOTE, FEEL FREE TO REMOVE IT  */
