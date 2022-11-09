@@ -2,7 +2,7 @@
 Logo: image/coffeLogo.png
 Tagline: My portfolio.
 Social:
-    - title: Link till sidans github repo.
-      url: https://github.com/AuroraBTH
+    - title: Länk till sidans github repo.
+      url: https://github.com/linr22/design
       icon: fab fa-github
 ---
