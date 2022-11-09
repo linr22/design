@@ -7,23 +7,41 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../node_modules/normalize.css/normalize';
 @import 'variables';
 
+@import 'typografy';
 @import 'blockquotes';
 @import 'code';
+@import 'img';
+@import 'title';
+@import 'placement';
+
+@import 'header';
+@import 'footer';
+
+@import 'nav';
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
 
-* {
-    font-family: 'Roboto', sans-serif;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Open Sans', sans-serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Mukta+Malar:wght@300&display=swap');
 
 body {
     background-color: $background-color;
 }
 
 * {
-    color: $font-color;
+    box-sizing: border-box;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+
+ol, ul {
+    padding-left: 1.5em;
+}
+
+.hidden {
+    display: none !important;
+}
+
+html, body {
+    height: 100%;
 }

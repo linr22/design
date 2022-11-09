@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+
+.main {
+    border-top: 3px solid #222;
+    flex: 1 0 auto;
+    overflow: hidden;
+    background: #ffffff;
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+    padding-right: 24%;
+    padding-left: 24%;
+}
+
+.header, .footer {
+    flex: 0 0 auto;
+}
