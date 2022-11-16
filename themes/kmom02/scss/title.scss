@@ -1,8 +1,8 @@
+
 .title, .logo {
     padding: 3em 3em 3em 0;
     font-family: 'Mukta Malar', sans-serif;
     font-size: 30px;
-    float: center;
 }
 
 @media (max-width: 767px) {
@@ -23,4 +23,5 @@
 
 .title p {
     font-style: italic;
+    float: center;
 }
