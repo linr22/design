@@ -1,18 +1,16 @@
 
 .nav {
+    li {
+        display: inline-block;
+    }
     a {
         text-decoration: none;
         font-size: 20px;
         display: block;
         padding: 0.5em;
-        // background-color: rgb(6, 77, 65);
     }
-    
-    li {
-        a:hover{
-            background-color: hotpink;
-            color: hotpink;
-        }
+    a:hover {
+        color: #222;
     }
 }
 
