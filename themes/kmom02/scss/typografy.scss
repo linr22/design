@@ -16,6 +16,36 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
 }
 
+/*Title*/
+
+.title, .logo {
+    padding: 3em 3em 3em 0;
+    font-family: 'Mukta Malar', sans-serif;
+    font-size: 30px;
+}
+
+@media (max-width: 767px) {
+    .title, .logo {
+        padding: 1em 1em 1em 0;
+    }
+    .title {
+        min-width: 50%;
+    }
+    .logo {
+        max-width: 5%;
+    }
+}
+
+.title * {
+    color: #111;
+    text-decoration: none;
+}
+
+.title p {
+    font-style: italic;
+    float: center;
+}
+
 // * {
 //     font-family: 'Roboto', sans-serif;
 // }
